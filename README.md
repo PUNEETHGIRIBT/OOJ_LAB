@@ -1,1 +1,3 @@
-WEEK_1-files {factorial.java, fib.java, example1.java, example2.java}
+WEEK_1-files { factorial,   fib,   prime,   example1,   example2,   example3}
+
+WEEK_2-files { TypeCast,   AreaofCircle,   StudentSGPA,   Quadratic}
