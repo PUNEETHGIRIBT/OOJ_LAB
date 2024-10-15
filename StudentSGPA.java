@@ -31,6 +31,33 @@ void DisplayDetails(){
 class StudentSGPA{
 	public static void main(String args[]){
 	Scanner sc = new Scanner(System.in);
+
+	System.out.println("Enter a number of students to calculate SGPA");
+	int student = sc.nextInt();
+	for(int i = 0; i < student; i++){
+		student s1 = new Student();
+		int subject = sc.nextint();
+		System.out.println("Enter details:");
+		System.out.println("Enter usn: ");
+			s1.usn = sc.nextInt();
+			sc.nextLine();
+		System.out.println("\nEnter name: \n");
+			s1.name = sc.nextLine();
+		System.out.println("\nEnter total number of credits of all subjects: ");
+			s1.total_credits = sc.nextInt();
+		System.out.println("\nEnter total number of subjects: ");
+			int subjects = sc.nextInt();
+				for(j = 0 ; j < subject; j++){
+					System.out.println("Subject "+ (i + 1) +"-credit--: ");
+					s1.credits[i] = sc.nextInt();
+					System.out.println("Subject "+ (i + 1) +"-marks--: ");
+					s1.marks[i] = sc.nextInt();
+					}
+
+
+
+
+
 	Student s1 = new Student();
 
 	System.out.println("Enter usn: ");
