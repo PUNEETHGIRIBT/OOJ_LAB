@@ -7,18 +7,50 @@ class Book{
 	int price;
 	int num_pages;
 	
-	void set_val(String n,String a,int p,int nu){
-		name = n;
-		author = a;
-		price = p;
-		num_pages = nu;
+	public Book(String name,String author,int price,int num_pages){
+		this.name = name;
+		this.author = author;
+		this.price = price;
+		this.num_pages = num_pages;
 	}
-	void get_val(){
-		System.out.println("Name of the book is :"+name);
-		System.out.println("Written by :"+author);
-		System.out.println("It contains "+num_pages+" number of pages.");
-		System.out.println("It's price value is: Rs "+price);
+	
+	public String getName(){
+		return name;
 	}
+
+	public void setname(String name){
+		this.name = name;
+	}
+
+	public String getAuthor(){
+		return author;
+	}
+
+	public void setAuthor(String author){
+		this.author = author; 
+	}
+
+	public int getprice(){
+		return price;
+	}
+
+	public void setprice(int price){
+		this.price = price;
+	}
+
+	public int getnum_pages(){
+		return num_pages;
+	}
+
+	public void setnum_pages(int num_pages){
+		this.num_pages = num_pages;
+	}
+
+	@Override
+	public String toString() {
+		return "Book name :"+ name + "\nAuthor :"+ author +"\nprice :"+ price +"\nnum_pages :"+ num_pages;
+	}
+
 }
 
 
@@ -27,16 +59,13 @@ class Book_details{
 	Scanner sc = new Scanner(System.in);
 	System.out.println("Enter number of Books");
 	int n = sc.nextInt();
+	sc.nextLine();
 
 	Book[] books = new Book[n];
 
 	for(int i=0; i<n; i++){
-		books[i] = new Book();
 		System.out.println("\nEnter details of Book :"+(i+1));
 
-		if(i==0){
-			sc.nextLine();
-		}
 		System.out.println("Enter Name: ");
 		String name = sc.nextLine();
 
@@ -50,16 +79,24 @@ class Book_details{
 		int num_pages = sc.nextInt();
 		sc.nextLine();
 		
-		books[i].set_val(name,author,price,num_pages);
+		books[i] = new Book(name,author,price,num_pages);
+		
 		}
 
 	for(int i=0; i<n; i++){
 		System.out.println("\nDetails of Book "+(i+1));
-		books[i].get_val();
+		System.out.println(books[i].toString());
 	    }
 
 	}
 }
+	
+
+
+
+			
+	
+	
 	
 
 
