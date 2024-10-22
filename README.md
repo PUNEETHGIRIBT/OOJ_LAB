@@ -4,4 +4,4 @@ WEEK_2-files { TypeCast,   AreaofCircle,   StudentSGPA,   Quadratic, [WEEK2_Outp
 
 WEEK_3-files { StduentSGPA2, Book_details}
 
-WEEK_4-files { Banking_System }
+WEEK_4-files { Banking_System, StaticDemo, InnerClassDemo, MethAndConsOverloading, Single_Inheritance}
