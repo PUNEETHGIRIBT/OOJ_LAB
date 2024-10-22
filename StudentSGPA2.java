@@ -28,7 +28,7 @@ void DisplayDetails(){
 
 
 
-class StudentSGPA{
+class StudentSGPA2{
 	public static void main(String args[]){
 	Scanner sc = new Scanner(System.in);
 
