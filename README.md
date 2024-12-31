@@ -15,3 +15,5 @@ WEEK_7-files { Exceptionhandling }
 WEEK_8-files { Threads }
 
 WEEK_9-files { SwingDemo(Calculator) }
+
+Lab Report PDF { Java_Lab_Report }
