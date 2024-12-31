@@ -14,4 +14,4 @@ WEEK_7-files { Exceptionhandling }
 
 WEEK_8-files { Threads }
 
-WEEK_9-files { Calculator }
+WEEK_9-files { SwingDemo(Calculator) }
