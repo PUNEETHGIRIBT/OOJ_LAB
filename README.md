@@ -12,4 +12,4 @@ WEEK_6-files { CIEPackages }
 
 WEEK_7-files { Exceptionhandling }
 
-WEEK_8-files { threads }
+WEEK_8-files { Threads }
