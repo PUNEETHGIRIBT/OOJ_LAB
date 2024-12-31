@@ -8,6 +8,6 @@ WEEK_4-files { StudentSGPA2, Book_details}
 
 WEEK_5-files { Banking_System, StaticDemo, InnerClassDemo, MethAndConsOverloading, Single_Inheritance}
 
-WEEK_6-files { }
+WEEK_6-files { CIE Packages }
 
 WWEK_7-files { }
