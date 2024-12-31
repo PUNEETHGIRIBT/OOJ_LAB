@@ -10,4 +10,6 @@ WEEK_5-files { Banking_System, StaticDemo, InnerClassDemo, MethAndConsOverloadin
 
 WEEK_6-files { CIEPackages }
 
-WWEK_7-files { Exceptionhandling }
+WEEK_7-files { Exceptionhandling }
+
+WEEK_8-files { threads }
